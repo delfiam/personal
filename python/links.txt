@@ -3,3 +3,4 @@ https://github.com/ronreiter/interactive-tutorials/tree/master/tutorials/learnpy
 aprender:
 https://www.w3schools.com/python/ref_func_map.asp
 https://www.learnpython.org/
+https://pynative.com/python-basic-exercise-for-beginners/

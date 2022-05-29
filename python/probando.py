@@ -14,15 +14,13 @@ def uppernom():
         print(nombremayus)
 
 # map
-def dictaduradenombres(dictador):
+def cambiodenombre(nombre2):
     nombre = 'cata'
-    nombre_lista = list('cata')
-    dictador_lista = list(dictador)
-    cambio = map(nombre_lista, dictador_lista)
+    cambio = map(nombre, nombre2)
     print(cambio) 
 
 holamundo()
 uppernom()
-dictaduradenombres('jerucho')
+cambiodenombre('jerucho')
 
 # https://itsmycode.com/typeerror-list-object-is-not-callable/#:~:text=The%20most%20common%20scenario%20where,parenthesis%20instead%20of%20square%20brackets.
