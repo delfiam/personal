@@ -1,0 +1,21 @@
+﻿@*https://tailwindcss.com/docs/installation*@
+
+@{
+    ViewData["Title"] = "CursosOrt";
+}
+
+<div class="text-center">
+    <div class="card-group" style= "width: 80%">
+    @{
+    foreach(Curso cards in ViewBag.ListadoCursos){
+        <div class="card" style="margin-right: 10px">
+            <img src="@cards.Imagen" class="card-img-top">
+            <div class="card-body">
+            <h5 class="card-title">@cards.Nombre</h5>
+            <a href='@Url.Action("VerCurso","Home", new{IdCurso=@cards.IdCurso})' class="btn btn-primary">Ver mas informacion</a>
+            </div>
+            </div>
+             }
+         }
+</div>
+</div>

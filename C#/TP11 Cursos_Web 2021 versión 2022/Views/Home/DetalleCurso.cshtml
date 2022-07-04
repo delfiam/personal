@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = @ViewBag.NombreCurso;
+}
+<div class="container">
+    <h1>@ViewBag.NombreCurso</h2>
+     <img src="@ViewBag.Imagen" style="width:50%"> <br>
+    <a href="@ViewBag.Url">Link</a>
+     </br>
+       <a href='@Url.Action("Calificar","Home",new{IdCurso=@ViewBag.IdCurso, Gusta="True"})'><img src="~/imagen/like.png" style="width: 3%; margin-right: 5px"> </img> <small> @ViewBag.Likes </small>
+        <a href='@Url.Action("Calificar","Home",new{IdCurso=@ViewBag.IdCurso, Gusta="False"})'><img src="~/imagen/dislike.png" style="width: 3%"> </img> <small> @ViewBag.Dislikes </small>
+</div>
