@@ -21,6 +21,10 @@ def cambiodenombre(nombre2):
 
 holamundo()
 uppernom()
+<<<<<<< HEAD
 cambiodenombre('cata2')
+=======
+cambiodenombre('aaa')
+>>>>>>> 06212d0153a86d3a1c87c9d1729055e97688e676
 
 # https://itsmycode.com/typeerror-list-object-is-not-callable/#:~:text=The%20most%20common%20scenario%20where,parenthesis%20instead%20of%20square%20brackets.
